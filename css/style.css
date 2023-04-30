@@ -1,0 +1,110 @@
+.hidden {
+  display: none;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to right, #ff6a00, #ceb720);
+}
+
+#login-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#login-form input[type="text"] {
+  display: block;
+  margin: 0 auto;
+  width: 250px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+#login-form input[type="submit"] {
+  display: block;
+  margin: 100px auto 0;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #020202;
+  color: #fff;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+#login-form input[type="submit"]:hover {
+  background-color: #ff6a00;
+}
+#clock {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Open Sans", sans-serif;
+  font-size: 150px;
+  color: #fff;
+  font-weight: 800px;
+  text-shadow: 6px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+#greeting {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+/* style the todo input and list */
+#todo-form input[type="text"] {
+  display: block;
+  margin: 30px auto 0;
+  width: 400px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+#todo-list {
+  margin-top: 20px;
+  padding-left: 0;
+  list-style: none;
+}
+
+#todo-list li {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  background-color: #f2f2f2;
+}
+
+#quote,
+#weather {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50%;
+  padding: 20px;
+  color: #fff;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  font-family: "Open Sans", sans-serif;
+}
